@@ -1,5 +1,5 @@
 describe('로그인/로그아웃 테스트', () => {
-  beforeEach(() => {
+  beforeEach('로그인 테스트', () => {
     cy.login();
   })
 
