@@ -1,9 +1,9 @@
-describe('로그인 테스트', () => {
-  it('로그인 성공 확인', () => {
-    cy.visit('https://practicetestautomation.com/practice-test-login/')
-    cy.get('#username').type('student')
-    cy.get('#password').type('Password123')
-    cy.get('button.btn').click()
-    cy.contains('Log out').should('be.visible')
+describe('로그인/로그아웃 테스트', () => {
+  beforeEach(() => {
+    cy.login();
+  })
+
+  it('로그아웃 테스트', () => {
+    cy.logout();
   })
 })
