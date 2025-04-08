@@ -3,18 +3,19 @@
 
 ## 1️⃣ 프로젝트 초기화 및 Cypress 설치
 
-### 1. 프로젝트 폴더 생성 및 진입
+1. 프로젝트 폴더 생성 및 진입
 ```
 mkdir cypress_gogo && cd cypress_gogo
 ```
-### 2. Node 프로젝트 초기화
+2. Node 프로젝트 초기화
 ```
 npm init -y
 ```
-### 3. Cypress 설치
+3. Cypress 설치
 ```
 npm install cypress --save-dev
 ```
+
 ## 2️⃣ Cypress 폴더 구조 생성 및 실행
 ```
 # Cypress 실행 (초기 폴더 구조 자동 생성)
