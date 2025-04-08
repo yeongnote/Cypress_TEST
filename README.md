@@ -5,7 +5,7 @@
 
 1. 프로젝트 폴더 생성 및 진입
 ```
-mkdir cypress_gogo && cd cypress_gogo
+mkdir cypress_gogo 또는 cd cypress_gogo
 ```
 2. Node 프로젝트 초기화
 ```
